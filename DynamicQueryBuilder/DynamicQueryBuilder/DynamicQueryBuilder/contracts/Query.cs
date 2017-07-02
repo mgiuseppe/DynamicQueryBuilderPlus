@@ -11,7 +11,6 @@ namespace DynamicQueryBuilder.DynamicQueryBuilder.contracts
     {
         public QueryId Id { get; set; }
         public List<QueryChunk> Chunks { get; set; }
-
-        public string BuildString() => String.Join(" ", Chunks.OrderBy(c => c.Type).ThenBy(c => c.Order).Select(c => c.Text));
+        public List<QueryParameter> ParametersInfo { get; internal set; }
     }
 }

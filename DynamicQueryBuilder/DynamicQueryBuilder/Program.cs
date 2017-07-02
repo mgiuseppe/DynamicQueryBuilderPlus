@@ -10,10 +10,8 @@ namespace DynamicQueryBuilder
     {
         static void Main(string[] args)
         {
-            var inputDto = new PerimeterExtractorInputDto { QueryId = QueryId.DDE_Extraction };
             var connectionString = @"Data Source=C:perimeterExtractor.db;FailIfMissing=True;";
-
-            var perimeter = new PerimeterExtractor(inputDto, connectionString).Extract();
+            var perimeter = new PerimeterExtractor(connectionString).Extract();
 
             Debug.WriteLine(String.Join(",", perimeter));
         }

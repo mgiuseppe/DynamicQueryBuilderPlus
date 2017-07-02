@@ -47,13 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DynamicQueryBuilder\contracts\ParameterType.cs" />
+    <Compile Include="DynamicQueryBuilder\contracts\QueryParameter.cs" />
+    <Compile Include="DynamicPerimeterExtractor\contracts\DDEExtractionOutput.cs" />
+    <Compile Include="DynamicPerimeterExtractor\contracts\DDEExtractionParameters.cs" />
+    <Compile Include="DynamicQueryBuilder\QueryExecutor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DynamicQueryBuilder\contracts\ChunkType.cs" />
-    <Compile Include="PerimeterExtractor\contracts\PerimeterExtractorInputDto.cs" />
     <Compile Include="DynamicQueryBuilder\contracts\Query.cs" />
     <Compile Include="DynamicQueryBuilder\contracts\QueryChunk.cs" />
-    <Compile Include="PerimeterExtractor\PerimeterExtractor.cs" />
+    <Compile Include="DynamicPerimeterExtractor\PerimeterExtractor.cs" />
     <Compile Include="DynamicQueryBuilder\QueryDAO.cs" />
     <Compile Include="DynamicQueryBuilder\contracts\QueryId.cs" />
   </ItemGroup>
