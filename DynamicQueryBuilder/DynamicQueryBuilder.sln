@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicQueryBuilder", "Rules\DynamicQueryBuilder.csproj", "{BCC4EFF6-D1B4-44A8-8914-2B05434435E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicQueryBuilder", "DynamicQueryBuilder\DynamicQueryBuilder.csproj", "{BCC4EFF6-D1B4-44A8-8914-2B05434435E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

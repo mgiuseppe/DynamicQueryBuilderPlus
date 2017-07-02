@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BCC4EFF6-D1B4-44A8-8914-2B05434435E7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Rules</RootNamespace>
-    <AssemblyName>Rules</AssemblyName>
+    <RootNamespace>DynamicQueryBuilder</RootNamespace>
+    <AssemblyName>DynamicQueryBuilder</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
