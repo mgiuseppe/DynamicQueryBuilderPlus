@@ -18,7 +18,7 @@ namespace DynamicQueryBuilder.DynamicPerimeterExtractor
 
         public List<long> Extract()
         {
-            var inputData = new List<object> { new DDEExtractionParameters { MinDate = new DateTime(2017, 1, 1) } };
+            var inputData = new List<object> { new DDEExtractionParameters { MinDate = new DateTime(2017, 1, 1), ListaTipoSinistro = new List<int> { 30,35 } } };
             var executor = new QueryExecutor<DDEExtractionOutput>(QueryId.DDE_Extraction, inputData, _connectionString);
 
             return executor.Execute().Select(x => x.ProgPratica).ToList();
