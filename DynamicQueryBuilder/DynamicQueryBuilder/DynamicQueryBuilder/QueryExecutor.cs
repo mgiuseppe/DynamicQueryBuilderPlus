@@ -23,7 +23,7 @@ namespace DynamicQueryBuilder.DynamicQueryBuilder
     /// - Associare i parametri di input della query con i campi delle DTO di input
     /// 
     /// NB: un parametro o una lista NULL verranno considerati come un parametro con valore DBNull.Value
-    /// NB: 
+    /// NB: è necessario che tutte le DTO di input collegate alla query vengano passate nella lista di input
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public class QueryExecutor<T>
